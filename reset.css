@@ -24,4 +24,8 @@ ol, ul {
   margin: 0;
 }
 
+ul li {
+  list-style: none;
+}
+
 /* must have mixins: respond-to(mobile), vertical center, top-x/bottom-x */
