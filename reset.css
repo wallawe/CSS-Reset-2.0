@@ -52,4 +52,6 @@ a {
   display: inline-block;
 }
 
-/* must have mixins: respond-to(mobile), vertical center, top-x/bottom-x */
+input[type="search"] {
+  -webkit-appearance: textfield; /* https://github.com/h5bp/html5-boilerplate/issues/396#issue-697226 */
+}
